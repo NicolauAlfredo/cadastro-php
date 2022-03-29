@@ -7,18 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
     <title>Login</title>
-    <style>
-       
-    </style>
 </head>
 
 <body>
     <a href="home.php">Voltar</a>
     <div>        
         <h1>Login</h1>
-        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="email" id="email" placeholder="Email">
         <br><br>
-        <input type="password" name="senha" placeholder="Senha" name="" id="">
+        <input type="password" name="senha" id="senha" placeholder="Senha">
         <br><br>
         <input class="input-submit" type="submit" name="submit" value="Enviar">
     </div>
