@@ -1,3 +1,7 @@
+<?php
+    include_once('dados.php'); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +15,7 @@
 
 <body>
     <div class="box">
-        <form action="">
+        <form action="dados.php" method="post"> 
             <fieldset>
                 <legend><b>Fórmulário de Clientes</b></legend>
                 <br>
@@ -56,8 +60,8 @@
                 <br><br>
 
                 <div class="inputBox">
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
-                    <label for="estado" class="labelInput">Estado</label>
+                    <input type="text" name="provincia" id="provincia" class="inputUser" required>
+                    <label for="provincia" class="labelInput">Provincia</label>
                 </div>
                 <br><br>
 
