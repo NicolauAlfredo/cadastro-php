@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <a href="home.php">Voltar</a>
     <div class="box">
         <form action="dados.php" method="post"> 
             <fieldset>

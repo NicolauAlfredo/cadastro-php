@@ -11,6 +11,7 @@
 
 <body>
     <div>
+        <a href="home.php">Voltar</a>
         <h1>Login</h1>
         <input type="text" placeholder="Nome">
         <br><br>
