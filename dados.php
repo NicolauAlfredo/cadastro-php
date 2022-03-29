@@ -1,7 +1,8 @@
 <?php    
 if(isset($_POST['submit'])) {
-    include_once('formulario.php');
     include_once('config.php');
+    include_once('formulario.php');
+    
     $nome = $_POST['nome'];
     $senha = $_POST['senha'];
     $email =  $_POST['email'];
@@ -13,6 +14,7 @@ if(isset($_POST['submit'])) {
     $endereco  =  $_POST['endereco'];
 
     $result = mysqli_query($conexao, "INSERT INTO usuario (nome_usuario, senha_usuario, email_usuario, telefone_usuario, sexo_usuario, data_nascimento, cidade_usuario, provincia_usuario, endereco_usuario) values('$nome', '$senha', '$email', '$telefone', '$sexo', '$data_nasc', '$cidade', '$provincia', '$endereco')");
+    header('Location: login.php');
 }   
    
     /*

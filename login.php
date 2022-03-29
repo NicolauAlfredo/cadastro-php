@@ -13,11 +13,14 @@
     <a href="home.php">Voltar</a>
     <div>        
         <h1>Login</h1>
-        <input type="text" name="email" id="email" placeholder="Email">
-        <br><br>
-        <input type="password" name="senha" id="senha" placeholder="Senha">
-        <br><br>
-        <input class="input-submit" type="submit" name="submit" value="Enviar">
+        <form action="testLogin.php" method="post">
+            <input type="text" name="email" id="email" placeholder="Email">
+            <br><br>
+            
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <br><br>
+            <input class="input-submit" type="submit" name="submit" value="Enviar">
+        </form>
     </div>
 </body>
 
